@@ -1,0 +1,15 @@
+{
+  "extends": "@vtex/tsconfig",
+  "compilerOptions": {
+    "allowJs": false,
+    "jsx": "react",
+    "lib": ["es2017", "dom"],
+    "module": "esnext",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "ignoreDeprecations": "6.0",
+    "target": "es2017"
+  },
+  "include": ["./**/*"],
+  "exclude": ["node_modules"]
+}
